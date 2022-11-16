@@ -1,0 +1,172 @@
+2022-11-10 11:54:42.370  INFO 9496 --- [main] pringbootWithEc2DynamodbApplicationTests : Starting SpringbootWithEc2DynamodbApplicationTests using Java 1.8.0_311 on J0DVY33 with PID 9496 (started by 111943 in D:\AB_class_code_base\springboot_with_ec2_dynamodb)
+2022-11-10 11:54:42.371  INFO 9496 --- [main] pringbootWithEc2DynamodbApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-10 11:54:44.699  INFO 9496 --- [main] pringbootWithEc2DynamodbApplicationTests : Started SpringbootWithEc2DynamodbApplicationTests in 2.705 seconds (JVM running for 3.608)
+2022-11-10 11:56:45.242  INFO 27776 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Starting SpringbootWithEc2DynamodbApplication using Java 17.0.3 on J0DVY33 with PID 27776 (D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes started by 111943 in D:\AB_class_code_base\springboot_with_ec2_dynamodb)
+2022-11-10 11:56:45.244  INFO 27776 --- [main] c.l.SpringbootWithEc2DynamodbApplication : No active profile set, falling back to 1 default profile: "default"
+2022-11-10 11:56:45.858  INFO 27776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-11-10 11:56:45.864  INFO 27776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-10 11:56:45.865  INFO 27776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-10 11:56:45.947  INFO 27776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2022-11-10 11:56:45.947  INFO 27776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 665 ms
+2022-11-10 11:56:46.614  INFO 27776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/api'
+2022-11-10 11:56:46.622  INFO 27776 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Started SpringbootWithEc2DynamodbApplication in 1.771 seconds (JVM running for 2.192)
+2022-11-10 11:57:00.290  INFO 27776 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-10 11:57:00.290  INFO 27776 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-10 11:57:00.291  INFO 27776 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-10 11:57:00.317  INFO 27776 --- [http-nio-8081-exec-1] com.learn.controller.UserController      : uid  3
+2022-11-10 11:57:00.317  INFO 27776 --- [http-nio-8081-exec-1] com.learn.controller.UserController      : uid aaa 3
+2022-11-10 11:57:00.317  INFO 27776 --- [http-nio-8081-exec-1] com.learn.service.UserServiceImpl        : uid  UserServiceImpl3
+2022-11-10 11:57:00.864  INFO 27776 --- [http-nio-8081-exec-1] com.learn.controller.UserController      : uid bbb 3
+2022-11-10 12:13:17.389  INFO 27776 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-10 12:13:17.430  INFO 27776 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-10 12:13:17.433  INFO 27776 --- [RMI TCP Connection(20)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-10 12:54:25.357  INFO 25000 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Starting SpringbootWithEc2DynamodbApplication using Java 17.0.3 on J0DVY33 with PID 25000 (D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes started by 111943 in D:\AB_class_code_base\springboot_with_ec2_dynamodb)
+2022-11-10 12:54:25.363  INFO 25000 --- [main] c.l.SpringbootWithEc2DynamodbApplication : No active profile set, falling back to 1 default profile: "default"
+2022-11-10 12:54:27.264  INFO 25000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-11-10 12:54:27.290  INFO 25000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-10 12:54:27.290  INFO 25000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-10 12:54:27.788  INFO 25000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2022-11-10 12:54:27.789  INFO 25000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2315 ms
+2022-11-10 12:54:28.653  WARN 25000 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\service\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDAOImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\dao\UserDAOImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBMapper' defined in class path resource [com/learn/config/DynamoDBConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper]: Factory method 'dynamoDBMapper' threw exception; nested exception is java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+2022-11-10 12:54:28.657  INFO 25000 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-10 12:54:28.672  INFO 25000 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-10 12:54:28.696 ERROR 25000 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\service\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDAOImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\dao\UserDAOImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBMapper' defined in class path resource [com/learn/config/DynamoDBConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper]: Factory method 'dynamoDBMapper' threw exception; nested exception is java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.learn.SpringbootWithEc2DynamodbApplication.main(SpringbootWithEc2DynamodbApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\service\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDAOImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\dao\UserDAOImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBMapper' defined in class path resource [com/learn/config/DynamoDBConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper]: Factory method 'dynamoDBMapper' threw exception; nested exception is java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDAOImpl' defined in file [D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes\com\learn\dao\UserDAOImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBMapper' defined in class path resource [com/learn/config/DynamoDBConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper]: Factory method 'dynamoDBMapper' threw exception; nested exception is java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dynamoDBMapper' defined in class path resource [com/learn/config/DynamoDBConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper]: Factory method 'dynamoDBMapper' threw exception; nested exception is java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper]: Factory method 'dynamoDBMapper' threw exception; nested exception is java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 61 common frames omitted
+Caused by: java.lang.ClassCastException: class com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient cannot be cast to class software.amazon.awssdk.services.secretsmanager.SecretsManagerClient (com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient and software.amazon.awssdk.services.secretsmanager.SecretsManagerClient are in unnamed module of loader 'app')
+	at com.learn.config.DynamoDBConfiguration.getSecret(DynamoDBConfiguration.java:47)
+	at com.learn.config.DynamoDBConfiguration.dynamoDBMapper(DynamoDBConfiguration.java:31)
+	at com.learn.config.DynamoDBConfiguration$$EnhancerBySpringCGLIB$$5f91ef53.CGLIB$dynamoDBMapper$0(<generated>)
+	at com.learn.config.DynamoDBConfiguration$$EnhancerBySpringCGLIB$$5f91ef53$$FastClassBySpringCGLIB$$a3d46328.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.learn.config.DynamoDBConfiguration$$EnhancerBySpringCGLIB$$5f91ef53.dynamoDBMapper(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 62 common frames omitted
+
+2022-11-10 13:06:10.625  INFO 28808 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Starting SpringbootWithEc2DynamodbApplication using Java 17.0.3 on J0DVY33 with PID 28808 (D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes started by 111943 in D:\AB_class_code_base\springboot_with_ec2_dynamodb)
+2022-11-10 13:06:10.629  INFO 28808 --- [main] c.l.SpringbootWithEc2DynamodbApplication : No active profile set, falling back to 1 default profile: "default"
+2022-11-10 13:06:11.839  INFO 28808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-11-10 13:06:11.853  INFO 28808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-10 13:06:11.853  INFO 28808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-10 13:06:12.223  INFO 28808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2022-11-10 13:06:12.223  INFO 28808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1522 ms
+2022-11-10 13:06:13.711  INFO 28808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/api'
+2022-11-10 13:06:13.732  INFO 28808 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Started SpringbootWithEc2DynamodbApplication in 3.89 seconds (JVM running for 5.175)
+2022-11-10 13:06:25.759  INFO 28808 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-10 13:06:25.759  INFO 28808 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-10 13:06:25.763  INFO 28808 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-10 13:06:25.908  INFO 28808 --- [http-nio-8081-exec-2] com.learn.controller.UserController      : uid  4
+2022-11-10 13:06:25.908  INFO 28808 --- [http-nio-8081-exec-2] com.learn.controller.UserController      : uid aaa 4
+2022-11-10 13:06:25.909  INFO 28808 --- [http-nio-8081-exec-2] com.learn.service.UserServiceImpl        : uid  UserServiceImpl4
+2022-11-10 13:06:27.567  INFO 28808 --- [http-nio-8081-exec-2] com.learn.controller.UserController      : uid bbb 4
+2022-11-10 13:43:14.612  INFO 28808 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-10 13:43:14.654  INFO 28808 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-10 13:43:14.657  INFO 28808 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-10 14:00:02.382  INFO 26944 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Starting SpringbootWithEc2DynamodbApplication using Java 17.0.3 on J0DVY33 with PID 26944 (D:\AB_class_code_base\springboot_with_ec2_dynamodb\target\classes started by 111943 in D:\AB_class_code_base\springboot_with_ec2_dynamodb)
+2022-11-10 14:00:02.388  INFO 26944 --- [main] c.l.SpringbootWithEc2DynamodbApplication : No active profile set, falling back to 1 default profile: "default"
+2022-11-10 14:00:05.227  INFO 26944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-11-10 14:00:05.245  INFO 26944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-10 14:00:05.246  INFO 26944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-10 14:00:05.915  INFO 26944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2022-11-10 14:00:05.916  INFO 26944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3446 ms
+2022-11-10 14:00:08.341  INFO 26944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/api'
+2022-11-10 14:00:08.365  INFO 26944 --- [main] c.l.SpringbootWithEc2DynamodbApplication : Started SpringbootWithEc2DynamodbApplication in 7.783 seconds (JVM running for 10.175)
+2022-11-10 14:01:10.792  INFO 26944 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-10 14:01:10.793  INFO 26944 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-10 14:01:10.796  INFO 26944 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-10 14:01:10.891  INFO 26944 --- [http-nio-8081-exec-2] com.learn.controller.UserController      : uid  4
+2022-11-10 14:01:10.892  INFO 26944 --- [http-nio-8081-exec-2] com.learn.controller.UserController      : uid aaa 4
+2022-11-10 14:01:10.892  INFO 26944 --- [http-nio-8081-exec-2] com.learn.service.UserServiceImpl        : uid  UserServiceImpl4
+2022-11-10 14:01:12.085  INFO 26944 --- [http-nio-8081-exec-2] com.learn.controller.UserController      : uid bbb 4
+2022-11-10 14:01:32.299  INFO 26944 --- [http-nio-8081-exec-3] com.learn.controller.UserController      : uid  4
+2022-11-10 14:01:32.299  INFO 26944 --- [http-nio-8081-exec-3] com.learn.controller.UserController      : uid aaa 4
+2022-11-10 14:01:32.300  INFO 26944 --- [http-nio-8081-exec-3] com.learn.service.UserServiceImpl        : uid  UserServiceImpl4
+2022-11-10 14:01:32.328  INFO 26944 --- [http-nio-8081-exec-3] com.learn.controller.UserController      : uid bbb 4
+2022-11-10 14:08:05.061  INFO 26944 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-10 14:08:05.101  INFO 26944 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-10 14:08:05.105  INFO 26944 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-16 12:58:40.084  INFO 4292 --- [main] pringbootWithEc2DynamodbApplicationTests : Starting SpringbootWithEc2DynamodbApplicationTests using Java 17.0.3.1 on Mehta with PID 4292 (started by divya in D:\sts_workspace\springboot_with_ec2_dynamodb)
+2022-11-16 12:58:40.084  INFO 4292 --- [main] pringbootWithEc2DynamodbApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-16 12:58:41.879  INFO 4292 --- [main] pringbootWithEc2DynamodbApplicationTests : Started SpringbootWithEc2DynamodbApplicationTests in 2.102 seconds (JVM running for 3.08)
